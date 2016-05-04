@@ -1,37 +1,21 @@
 html, body {
     
-        height: 100%;
-        margin: 0;
-        padding: 0;
+    height: 100%;
+    margin: 0;
+    padding: 0;
     background-color: #f9ffff;
-      }
+}
+
 bt{
     font-size: 20px;
 }
+
 h5{
     float: left;
 }
-h2{
-    text-align: left;
-    color: #fd6c6c;
-    font-family: 'Seymour One', sans-serif;;
-}
-h1{
-    color: white;
-    text-align: center;
-    margin-top: 100px;
-    font-size: 250%;
-    margin-bottom: 5px;
-    overflow: hidden;
-}
-p{
-    color: #000000;
-    text-align: center;
-    font-size: 20px;
-    margin-top: 0;
-}
+
 .menu{
-     list-style:none;
+    list-style:none;
     text-align: right;
     color: #f84242;
     background: rgba(225, 251, 252, 0.46);
@@ -42,63 +26,64 @@ li{
     margin-top: 30px;
 }
 
-#kensaku{
-    text-align: center;
-
-}
-
-#address{
-    width: 55%;
-    height: 40px;
-    font-size: 17px;
-}
-
-#submit{
-     padding: 5px 30px;
-    font-size: 1.2em;
-    background-color:#fd6c6c;
-    color: white;
-    border-style: none;
-}
-#submit:hover{
-background-color:#fda8a8;
-    cursor: pointer;
-}
-
-
 a{
-     text-decoration:none;
+    text-decoration:none;
 }
 a:link { color:#000000;}
 a:visited { color:#000000;} 
 a:hover { color: #ffffff;}
 
 #main{
- 
-  
-  
     text-align: center;
 
-}
-
-#contents{
-  float: left;
-  width: 65%;
-    background-color: #f9ffff;
-
-}
-#sidebar{
-  float: right;
-  width: 35%;
-    background-color: #f9ffff;
 }
 
 #hito{
-    margin-left: 30px;
+   
 }
+
 table{
-    text-align: center;
+    margin-left: 40px;
+    text-align: left;
     font-size: 20px;
     border-spacing: 15px 10px; 
-    
+}
+
+#content{
+    text-align: center;
+}
+
+p{
+    font-size: 25px;
+}
+
+h2{
+    color:  #f9ffff;
+}
+
+h1{
+    font-size: 35px;
+}
+
+button.button8 {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 30px;
+    color: #fff;
+    border-style: none;
+    box-shadow: 2px 2px 3px 1px #666;
+
+    -moz-box-shadow: 2px 2px 3px 1px #666;
+   -webkit-box-shadow: 2px 2px 3px 1px #666;
+
+    text-shadow: 1px 1px 2px #000;
+    background: -moz-linear-gradient(bottom, #36d, #248 50%, #36d);
+    background: -webkit-gradient(linear, left bottom, left top, from(#36d), color-stop(0.5, #248), to(#36d));
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+ 
+button.button8:hover {
+    opacity: 0.8;
 }
