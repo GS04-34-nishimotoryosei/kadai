@@ -1,0 +1,17 @@
+.toroku-migi { 
+    width:300px;height:100px;float:left;
+}  
+.toroku-hidari {
+    width:300px;height:100px;float:left; 
+    
+}  
+.toroku-waku{
+    margin-top: 100px;
+    margin-left: 100px;
+   
+    
+}
+
+body{
+     background-color: #cfd2d3;
+}

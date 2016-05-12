@@ -1,0 +1,97 @@
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+}
+#map {
+    height: 50%;
+    width: 80%;
+    margin:auto;
+    margin-top: 20px;
+}
+
+
+body{
+   background: url(tokyo3.png)
+       center center / cover no-repeat fixed;
+}
+
+h2{
+    text-align: left;
+    color: #fd6c6c;
+    float: left;
+    font-family: 'Seymour One', sans-serif;;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 250%;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0;
+}
+.menu{
+     list-style:none;
+    color: #f84242;
+    text-align: right;
+    background:rgba(225, 251, 252, 0.46);
+}
+
+li{
+    display: inline-block;
+    margin-top: 30px;
+}
+
+#kensaku{
+    text-align: center;
+}
+
+#address{
+    width: 55%;
+    height: 40px;
+    font-size: 17px;
+}
+
+#submit{
+     padding: 5px 30px;
+    font-size: 1.2em;
+    background-color:#fd6c6c;
+    color: white;
+    border-style: none;
+}
+
+#submit:hover{
+background-color:#fda8a8;
+    cursor: pointer;
+}
+
+a{
+     text-decoration: none;
+}
+a:link { color:#000000;}
+a:visited { color:#000000;}
+a:hover { color: #ffffff;}
+
+#slide:hover{
+    color: #ffffff;
+    cursor:pointer;
+}
+#slide{
+    color:black;
+    background-color:rgba(255, 158, 173, 0.46);
+    opacity: 0.8;
+    font-size: 30px;
+}
+#target{
+    width: auto;
+    text-align: left;
+    color:black;
+    background-color: #ffeae4;
+    opacity: 0.8;
+}
